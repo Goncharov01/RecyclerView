@@ -1,0 +1,4 @@
+
+squid:S1450"cRemove the "studentsRecyclerView" field and declare it as a local variable in the relevant methods.(à‘›8é¥óÇ-
+squid:S1450"\Remove the "layoutManager" field and declare it as a local variable in the relevant methods.(Çòçöûÿÿÿÿ8é¥óÇ-
+Fsquid:S1185b"(Remove this method to simply inherit it.(á£¿‚8é¥óÇ-

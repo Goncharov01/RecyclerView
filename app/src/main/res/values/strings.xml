@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">RecyclerView</string>
+    <string name="name">Name</string>
+    <string name="hw_count">HW count</string>
+    <string name="ok">ok</string>
+    <string name="cancel">cancel</string>
+    <string name="dialog_title">Student info</string>
+    <string name="add_student">Add student</string>
+</resources>

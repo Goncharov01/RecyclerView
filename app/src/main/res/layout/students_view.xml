@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="96dp">
+
+    <ImageView
+        android:id="@+id/student_image_view"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        app:srcCompat="@drawable/ic_student"
+        tools:ignore="VectorDrawableCompat" />
+
+    <TextView
+        android:id="@+id/name_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_toEndOf="@id/student_image_view"
+        android:gravity="bottom"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        tools:text="Student name"
+        tools:ignore="RtlCompat" />
+
+    <TextView
+        android:id="@+id/hw_count_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_below="@id/name_text_view"
+        android:layout_toEndOf="@id/student_image_view"
+        android:gravity="top"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        tools:text="hw count"
+        tools:ignore="RtlCompat" />
+
+    <ImageButton
+        android:id="@+id/edit_button"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="8dp"
+        android:background="@null"
+        app:srcCompat="@drawable/ic_build_black_24dp"
+        tools:ignore="RtlCompat,VectorDrawableCompat" />
+</RelativeLayout>
